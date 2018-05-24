@@ -14,6 +14,11 @@ public class GameStart extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game_start);
     }
+
+    public void buttonOnClick(View v){
+        Button button=(Button) v;
+        ((Button) v).setText("Clicked");
+    }
 }
 
 public class Main extends ActionBarActivity implements View.OnClickListener {
