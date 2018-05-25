@@ -20,7 +20,3 @@ public class GameStart extends AppCompatActivity {
         ((Button) v).setText("Clicked");
     }
 }
-
-public class Main extends ActionBarActivity implements View.OnClickListener {
-    // do your stuff
-}
