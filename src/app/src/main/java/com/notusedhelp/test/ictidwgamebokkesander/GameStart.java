@@ -16,7 +16,12 @@ public class GameStart extends AppCompatActivity {
     }
 
     public void buttonOnClick(View v){
-        Button button=(Button) v;
-        ((Button) v).setText("Clicked");
+        Button buttonO=(Button) v;
+        (buttonO.setText("Clicked!");
+    }
+
+    public void buttonOnClickTwo(View v){
+        Button buttonT=(Button) v;
+        (buttonT).setText("Clicked@");
     }
 }
